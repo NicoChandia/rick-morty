@@ -1,0 +1,31 @@
+//Tamaño letra version Ionic 7
+.version{
+    font-size: 14px;
+}
+
+//Le aplico borde y tamaño a la imagen
+ion-avatar {
+    --border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+//Tamaño de letra del nombre
+.name{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+//Personalizo el buscador
+ion-searchbar{
+    --background: rgba(7, 7, 7, 0.2); //fondo
+    max-width: 350px;
+    color: white; //letra
+
+}
+
+//Personalizo el fondo del cursor sobre la carta
+ion-card:hover{
+    cursor: pointer;
+    background: rgba(7, 7, 7, 0.485);
+}
